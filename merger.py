@@ -4,11 +4,10 @@ import glob
 
 pdfs = glob.glob("PDFFiles/*.pdf")
 
-if len(pdfs)==1:
+# Exit if there are less than 2 files to merge
+if len(pdfs)<2:
     print("Not enough files to merge!")
     sys.exit()
-
-
 
 merger = PdfFileMerger()
 
