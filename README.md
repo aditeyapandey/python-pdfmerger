@@ -11,6 +11,6 @@ Requires Python > 2.7
 
 Requires Py2PDF https://pypi.org/project/PyPDF2/
 
-Install: pip install PyPDF2
+*Install: pip install PyPDF2*
 
 ## Usage
