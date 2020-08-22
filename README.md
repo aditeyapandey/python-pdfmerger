@@ -9,8 +9,6 @@ Saves you from uploading pdf files that may contain confidential data to cloud o
 
 Requires Python > 2.7
 
-Requires Py2PDF https://pypi.org/project/PyPDF2/
-
-*Install: pip install PyPDF2*
+Requires Py2PDF: https://pypi.org/project/PyPDF2/, **Install: pip install PyPDF2**
 
 ## Usage
