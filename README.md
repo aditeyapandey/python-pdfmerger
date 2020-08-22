@@ -19,7 +19,7 @@ Requires Py2PDF: https://pypi.org/project/PyPDF2/, **Install: pip install PyPDF2
 
 3. In the >PDFFiles Folder you can add the files that you want to merge. The name of the files have to be in a specific format to ensure ordering of pdfs in the final merged document.
 
-    *File 1: 1.pdf 
+    *File 1: 1.pdf<br>
     File 2: 2.pdf \\
     File 3: 3.pdf \\
     :\\
