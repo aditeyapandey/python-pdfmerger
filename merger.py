@@ -1,19 +1,14 @@
 from PyPDF2 import PdfFileMerger
 import sys
+import glob
 
-totalFiles = input() 
+pdfs = glob.glob("PDFFiles/*.pdf")
 
-print(totalFiles)
-
-if totalFiles==1:
+if len(pdfs)==1:
     print("Not enough files to merge!")
     sys.exit()
 
-pdfs = []
 
-for x in range (totalFiles):
-    file = input()
-    pdfs.append(file)
 
 merger = PdfFileMerger()
 
